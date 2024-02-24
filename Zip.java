@@ -10,8 +10,7 @@ public class Zip {
 
     public static void zip(String[] a, int[] b){
         for(int i=0; i<a.length; i++){
-            System.out.println(a[i]);
-            System.out.println(b[i]);
+            System.out.println("The " + a[i] + " is" + " $" + b[i] + "." );
         }
     }
 
